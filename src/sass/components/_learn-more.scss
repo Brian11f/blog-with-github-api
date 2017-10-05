@@ -1,5 +1,4 @@
 .learn-more-wrapper {
-  @include flex-box($align: center, $wrap: wrap, $direction: column, $justify: center);
   text-align: center;
   padding: 1em;
   background: color('accent');

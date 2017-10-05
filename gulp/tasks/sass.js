@@ -25,5 +25,3 @@ gulp.task('sass', function () {
 
     .pipe(gulp.dest(config.dest));
 });
-
-

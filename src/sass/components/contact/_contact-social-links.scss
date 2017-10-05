@@ -11,13 +11,11 @@
     margin-top: 0;
   }
   ul {
-    @include flex-box($align: center, $wrap: wrap, $direction: row, $justify: center);
     padding-left: 0;
     // margin-right: 2em;
     // width: 100%;
   }
   li {
-    @include flexitem;
     list-style-type: none;
     display: inline;
     padding: 0.5em;
@@ -56,6 +54,3 @@
   content:"";
   z-index: -1;
 }
-
-
-

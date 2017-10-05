@@ -1,12 +1,8 @@
 .blog-summary {
-  @include flex-box($align: center, $wrap: wrap, $direction: column, $justify: center);
   margin: 1em auto;
   padding-bottom: 3em;
   border-bottom: 1px solid;
   border-color: rgba(0, 0, 0, .1);
-  @media only screen and (min-width: $break) {
-      @include flex-box($align: center, $wrap: wrap, $direction: row, $justify: space-between);
-  }
 
   h1 {
     font-family: font-family('primary', 'regular');
